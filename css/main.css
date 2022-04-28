@@ -25,22 +25,36 @@ img{
 /* -------------------------------------------------start --------------------------------*/
 .box{
    width: 400px;
-   height: 650px;
-   border: 15px solid #000;
+   height: 620px;
+   border: 15px solid #1F1F1F;
    border-radius: 30px;
    margin: 0 auto;
    background-color: #F7F7F7;
    padding: 10px 8px;
+   background-image: linear-gradient(212deg,  #5288F4  35%, #fff 35%, #fff 65%);
+}
+.back-span{
+   position: relative;
+   top: calc(50% + -300px);
+   left: calc(50% + px);
+   display: block;
+   width: 250px;
+   height: 30px;
+   border-radius: 15px;
+   background-color: #1F1F1F;
+   margin: 0 auto;
 }
 .card-title{
-   display: block                               ;
-   margin-top: 30px;
-   margin-bottom: 30px;
+   display: block;
+   margin: 0;
+   margin-bottom: 25px;
    text-align: center;
+   color: #F2F4F8;
 }
 .card-img{
    display: block;
-   margin:0 auto 30px auto;
+   margin: 0 auto;
+   margin-bottom: 35px;
 }
 .big-lavel-box{
    background-image: url(../images/lock.svg), url(../images/plane.svg), url(../images/laptop.svg), url(../images/atm.svg);
